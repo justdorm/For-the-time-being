@@ -14,10 +14,6 @@ a {
   text-decoration: none;
 }
 
-.home .mainContainer {
-  background-image: url(https://www.youtube.com/watch?v=_XVLxl-j3xQ&feature=emb_title);
-}
-
 .mainContainer {
   display: flex;
   flex-direction: column;
@@ -46,6 +42,18 @@ a {
   background-color: white;
   display: flex;
   justify-content: space-around;
+}
+.navBar a {
+  transition: 1s;
+}
+.navBar a:hover {
+  color: red;
+}
+.buttons a {
+  transition: 1s;
+}
+.buttons a:hover {
+  color: red;
 }
 .videoContainer {
   position: absolute;
